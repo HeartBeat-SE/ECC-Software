@@ -1,5 +1,9 @@
 import math
 import matplotlib.pyplot as plt 
+import os
+
+def clear():
+  return os.system("cls")
 
 with open('users-data.txt', 'r') as u:
     lines = u.readlines()
@@ -74,9 +78,9 @@ for n in range(0, 101):
     valid.append(n)
 
 while test:
-    print(input('This is a very simple prototype of the Emergency System'))
-    print(input('You will simulate the job of the ECC operator..'))
-    print(input('You receive an emergency call and you fill the form with the details of the emergency'))
+    print(input('This is a very simple prototype of the Emergency System '))
+    print(input('You will simulate the job of the ECC operator.. '))
+    print(input('You receive an emergency call and you fill the form with the details of the emergency '))
     coord1 = input('Please, insert the latitude value (from 0 to 100): ')
     while int(coord1) not in valid:
         coord1 = input('Please enter a valid number (from 0 to 100):' )
@@ -92,6 +96,8 @@ while test:
     print('The closest First Responder is: ', nearest_user)
     print('The closest AED is: ', nearest_aed)
 
-    yn = input('Wanna try again? (y/n):')
+    yn = input('Wanna try again? (y/n): ')
     if yn == 'n':
         test = False
+
+    clear()
