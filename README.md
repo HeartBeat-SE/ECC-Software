@@ -13,7 +13,7 @@ Data about *First Responders* are stored in the following format:
 }
 
 ```
-At the same time, data about *available AEDs* are stored in the following format:
+Data about *available AEDs* are stored in the following format:
 
 ```json
 {
