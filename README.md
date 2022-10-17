@@ -35,5 +35,6 @@ At the same time, it identifies the closest AED to the emergency site and provid
 ## Try the program
 
 1. Clone the repository `git clone https://github.com/HeartBeat-SE/ECC-Software`
+2. Set the directory inside the `ECC-Software` folder
 2. Execute the command `python emergency-system.py`
 3. Follow the instruction on the terminal
