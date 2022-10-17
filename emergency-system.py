@@ -96,7 +96,7 @@ while test:
     print('The closest First Responder is: ', nearest_user)
     print('The closest AED is: ', nearest_aed)
 
-    yn = input('Wanna try again? (y/n): ')
+    yn = input('Do you want to add another emergency? (y/n): ')
     if yn == 'n':
         test = False
 
